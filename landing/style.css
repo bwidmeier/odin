@@ -1,0 +1,159 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    height: 100vh;
+    margin: 0px;
+    font-family: Roboto;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 72px;
+    background-color: #1F2937;
+    padding: 18px 100px 0 100px;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.hype {
+    display: flex;
+    align-items: center;
+    background-color: #1F2937;
+    padding: 50px 100px;
+    gap: 24px;
+}
+
+.hype-content {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.hype-header {
+    color: #F9FAF8;
+    font-weight: bolder;
+    font-size: 48px;
+}
+
+.hype-content p {
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 100px;
+    font-size: 18px;
+    gap: 16px;
+}
+
+.info-header {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: bolder;
+}
+
+.cards {
+    display: flex;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 8px;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    padding: 50px 100px;
+    background-color: #E5E7EB;
+    align-items: flex-end;
+    gap: 8px;
+}
+
+.quote p {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+.quote-signature {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.cta {
+    display: flex;
+    background-color: #3882F6;
+    margin: 50px 100px;
+    padding: 24px 96px;
+    justify-content: space-between;
+    border-radius: 4px;
+}
+
+.cta-text {
+    display: flex;
+    flex-direction: column;
+    color: #F9FAF8;
+}
+
+.cta-header {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.links {
+    display: flex;
+    gap: 16px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    flex: 1;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 72px;
+    padding: 16px;
+}
+
+a {
+    color: #E5E7EB;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border-color: transparent;
+    width: 96px;
+    border-radius: 4px;
+}
+
+.cta button {
+    border-color: #F9FAF8;
+    border-style: solid;
+    align-self: center;
+}
+
+p {
+    margin: 0px;
+}
